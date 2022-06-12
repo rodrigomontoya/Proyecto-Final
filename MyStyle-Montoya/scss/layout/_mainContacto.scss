@@ -1,0 +1,44 @@
+#tituloContacto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 3rem;
+    color:white;
+    margin:auto;
+    font-style: oblique;
+    &:hover{
+     color:rgb(5, 5, 5);
+     transition:2s; 
+    } 
+}
+
+#textoContacto{
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        &:hover{
+            color:grey !important;
+            transition:2s;  
+        }
+    }
+}
+
+#formulario{
+    border:solid 3px;
+    border-color:white !important;
+    border-radius:5px !important;
+
+    &:hover{
+        border-color:black !important;
+        transition:4s;
+    }
+}
+
+.btn-secondary {
+    background-color: rgb(7, 6, 6) !important;
+    &:hover{
+        background-color:rgb(177, 4, 4) !important;
+    }
+    
+}
+.fondoRelleno:hover{
+    background-color: black !important;
+    color:white !important;
+}
