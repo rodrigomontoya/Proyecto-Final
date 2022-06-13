@@ -18,7 +18,7 @@
     margin-bottom:1%;
     margin-top: -4%;
     font-style: oblique;  
-    font-size:2.9rem !important;
+    font-size:2.7rem !important;
      &:hover{
         color:rgb(5, 5, 5);
         transition:2s; 
@@ -26,12 +26,12 @@
  }
 
  #galeria{
-     row-gap:10px;
-     column-gap:10%;
+     row-gap:8px;
+     column-gap:7%;
     
  }
  
- #producto1{
+ #producto1,#producto2,#producto3,#producto4,#producto5,#producto6,#producto7,#producto8,#producto9{
     background-color: #B00000;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23920000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23730000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23550000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23360000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23180000' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
@@ -44,7 +44,7 @@
 
     img{
         &:hover{
-            border: 5px solid rgb(8, 8, 8)!important;
+            border: 5px solid rgb(107, 21, 21)!important;
             -webkit-transform: scale(1.2);
             transform: scale(1.2);
             transition: transform 1.5s;
@@ -53,6 +53,8 @@
 
     #tituloCard{
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+     font-size:1.5rem !important;
+     font-weight:normal!important;
       &:hover {
         color:grey !important;
         transition:2s;
@@ -61,19 +63,23 @@
     }
     #textoCard{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        font-size:1rem !important;
         &:hover {
           color:grey !important;
           transition:2s;
+         
         }
     }
     #boton{
         background-color:black;
-        border-color:rgb(136, 131, 131);
+        border-color:rgb(153, 147, 147);
         border-width: 3px;
         margin-left:29%;
+        margin-bottom:-50%;
+        width:40%;
 
         &:focus{
-            border-color: rgb(129, 4, 4)!important;
+            border-color: rgb(102, 98, 98)!important;
         }
        
     }

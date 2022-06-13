@@ -18,13 +18,19 @@ $rutaImagenFondoLogo:"../imagenes/fondoLogo1.jpg"; /*imagen de fondo de logo */
   
 }
 .navbar-nav {
-    a:hover{
-  border:solid rgb(109, 10, 10)!important;
-  border-radius:5px;
-  transition:1.5s; 
-  transform: scale(1.2);
-  color: rgb(15, 14, 14) !important;
-  }
+    a{ 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+      font-size:1rem!important;
+
+      &:hover{
+        border:solid rgb(109, 10, 10)!important;
+        border-radius:5px;
+        transition:1.5s; 
+        transform: scale(1.2);
+        color: rgb(15, 14, 14) !important;
+        }
+    }
+    
 }
 
 .logo{
