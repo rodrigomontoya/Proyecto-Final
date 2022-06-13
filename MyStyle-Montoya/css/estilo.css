@@ -204,7 +204,7 @@
   transition: 2s;
 }
 
-/* line 46, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 47, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 img:hover, #producto2 img:hover, #producto3 img:hover, #producto4 img:hover, #producto5 img:hover, #producto6 img:hover, #producto7 img:hover, #producto8 img:hover, #producto9 img:hover {
   border: 5px solid #6b1515 !important;
   -webkit-transform: scale(1.2);
@@ -212,32 +212,32 @@
   transition: transform 1.5s;
 }
 
-/* line 54, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 55, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 #tituloCard, #producto2 #tituloCard, #producto3 #tituloCard, #producto4 #tituloCard, #producto5 #tituloCard, #producto6 #tituloCard, #producto7 #tituloCard, #producto8 #tituloCard, #producto9 #tituloCard {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-  font-size: 1.5rem !important;
+  font-size: 1.3rem !important;
   font-weight: normal !important;
 }
 
-/* line 58, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 59, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 #tituloCard:hover, #producto2 #tituloCard:hover, #producto3 #tituloCard:hover, #producto4 #tituloCard:hover, #producto5 #tituloCard:hover, #producto6 #tituloCard:hover, #producto7 #tituloCard:hover, #producto8 #tituloCard:hover, #producto9 #tituloCard:hover {
   color: grey !important;
   transition: 2s;
 }
 
-/* line 64, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 65, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 #textoCard, #producto2 #textoCard, #producto3 #textoCard, #producto4 #textoCard, #producto5 #textoCard, #producto6 #textoCard, #producto7 #textoCard, #producto8 #textoCard, #producto9 #textoCard {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-  font-size: 1rem !important;
+  font-size: 0.8rem !important;
 }
 
-/* line 67, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 68, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 #textoCard:hover, #producto2 #textoCard:hover, #producto3 #textoCard:hover, #producto4 #textoCard:hover, #producto5 #textoCard:hover, #producto6 #textoCard:hover, #producto7 #textoCard:hover, #producto8 #textoCard:hover, #producto9 #textoCard:hover {
   color: grey !important;
   transition: 2s;
 }
 
-/* line 73, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 74, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 #boton, #producto2 #boton, #producto3 #boton, #producto4 #boton, #producto5 #boton, #producto6 #boton, #producto7 #boton, #producto8 #boton, #producto9 #boton {
   background-color: black;
   border-color: #999393;
@@ -247,7 +247,7 @@
   width: 40%;
 }
 
-/* line 81, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 82, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 #boton:focus, #producto2 #boton:focus, #producto3 #boton:focus, #producto4 #boton:focus, #producto5 #boton:focus, #producto6 #boton:focus, #producto7 #boton:focus, #producto8 #boton:focus, #producto9 #boton:focus {
   border-color: #666262 !important;
 }
