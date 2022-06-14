@@ -132,7 +132,7 @@
   background-attachment: fixed;
   background-size: cover;
   border: solid 4px;
-  border-radius: 50px;
+  border-radius: 20px;
   border-color: black;
 }
 
@@ -391,7 +391,7 @@
   margin-bottom: 50%;
 }
 
-/* line 14, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+/* line 15, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
 #texto_footer {
   text-align: center;
   color: #e6dada;
@@ -399,19 +399,19 @@
   margin-top: 8%;
 }
 
-/* line 19, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+/* line 20, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
 #texto_footer h3, #texto_footer h4, #texto_footer h5, #texto_footer h6 {
   font-size: 1rem  !important;
 }
 
-/* line 33, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+/* line 34, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
 .container--facebook {
   margin-left: 6%;
   border-style: outset;
   border-color: #faf4f4;
 }
 
-/* line 37, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+/* line 38, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
 .container--facebook:hover {
   border: solid #0c1a9b;
   border-radius: 5px;
@@ -420,14 +420,14 @@
   transform: scale(1.4);
 }
 
-/* line 33, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+/* line 34, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
 .container--twitter {
   margin-left: 6%;
   border-style: outset;
   border-color: #faf4f4;
 }
 
-/* line 37, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+/* line 38, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
 .container--twitter:hover {
   border: solid #0c1a9b;
   border-radius: 5px;
@@ -436,14 +436,14 @@
   transform: scale(1.4);
 }
 
-/* line 33, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+/* line 34, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
 .container--instagram {
   margin-left: 6%;
   border-style: outset;
   border-color: #faf4f4;
 }
 
-/* line 37, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+/* line 38, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
 .container--instagram:hover {
   border: solid brown;
   border-radius: 5px;
@@ -452,14 +452,14 @@
   transform: scale(1.4);
 }
 
-/* line 33, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+/* line 34, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
 .container--youtube {
   margin-left: 6%;
   border-style: outset;
   border-color: #faf4f4;
 }
 
-/* line 37, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+/* line 38, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
 .container--youtube:hover {
   border: solid #6d0a0a;
   border-radius: 5px;
@@ -468,7 +468,7 @@
   transform: scale(1.4);
 }
 
-/* line 47, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+/* line 48, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
 #foto_medios_pago {
   margin-top: 0.5%;
 }
