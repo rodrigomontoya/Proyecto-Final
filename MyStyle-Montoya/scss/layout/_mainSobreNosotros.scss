@@ -9,22 +9,31 @@
     transition:2s; 
    }
 }
-#foto1 {
-    border-style: groove;
-    border-width:4px;
-    border-color:white;
-    margin:0px;
-    padding:0px;
-     &:hover{
-       border-color:rgb(5, 5, 5);
-        transition:2s;    
+.cardContainer {
+    background-color: #B00000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23920000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23730000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23550000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23360000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23180000' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    border:solid 4px;
+    border-radius:50px;
+    border-color:black;
+      
+    .cardTituloTexto{
+        font-size:1.5rem  !important;
+        &:hover{
+            color:grey !important;
+            transition:2s;
+        }
+
     }
-}
-#textoFoto1 { 
-    font-size:1.2rem !important;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-     &:hover{
-        color:rgb(134, 119, 119);
-         transition:2s;    
-     }
+    .cardTexto{
+        margin-bottom:2% !important;
+        &:hover{
+            color:grey !important;
+            transition:2s;
+        }
+    }
+
+
+
 }
