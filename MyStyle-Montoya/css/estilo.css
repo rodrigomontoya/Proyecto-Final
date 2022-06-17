@@ -290,33 +290,34 @@
 /* line 26, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
 #ubicacion img {
   border: solid white 2px;
+  margin-bottom: 2% !important;
 }
 
-/* line 28, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+/* line 29, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
 #ubicacion img:hover {
   border-color: #d10808 !important;
   transition: 2s;
 }
 
-/* line 34, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+/* line 36, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
 #ubicacion h2 {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-  font-size: 1.5rem !important;
+  font-size: 1.2rem !important;
 }
 
-/* line 37, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+/* line 39, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
 #ubicacion h2:hover {
   color: grey !important;
   transition: 2s;
 }
 
-/* line 42, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+/* line 44, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
 #ubicacion h3 {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-  font-size: 1.5rem !important;
+  font-size: 1.2rem !important;
 }
 
-/* line 45, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+/* line 47, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
 #ubicacion h3:hover {
   color: grey !important;
   transition: 2s;
