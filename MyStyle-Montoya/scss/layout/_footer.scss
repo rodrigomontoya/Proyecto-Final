@@ -1,83 +1,151 @@
-#Redes{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  min-height: 100vh;
-  background:var(--bg);
-    #titulo_redes_sociales{
-    color: rgb(230, 218, 218);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    margin-top:auto;
-    h2{
-      font-size:1.4rem  !important;
-      margin-bottom:50%;
-      
-   }
-   ul{
-    position:relative;
-    display:flex;
-    gap:50px;
-      li{
-        position:relative;
-        list-style: none;
-        width:80px;
-        height:80px;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        cursor:pointer;
-        transition:0.5s;
-        a{
-          position:relative;
-          text-decoration: none;
-          color: var(--clr);
-        }
-      }
-       
-   }
-   
-
+#Redes {
+  ul {
+    &hover {
+      filter: blur(5px);
     }
-  }
- 
-  #texto_footer{
+
+    li {
+      margin: 0 5px;
+      width: 50px;
+      height: 50px;
       text-align: center;
-      color: rgb(230, 218, 218);
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      margin-top: 8%;
-      h3,h4,h5,h6{
-        font-size:1rem  !important;
+      list-style: none;
+      padding-top: 30%;
+
+      a {
+        display: block;
+        padding: 0 10px;
+        background: #333;
+        color: white;
+        line-height: 35px;
+        font-size: 18px;
+        box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+        transition: .2s;
+
+        &:hover {
+          transform: translatey(-3px) scale(1.4);
+          box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
+          filter: none;
+          transition:1s;
+        }
+
+      }
+
+      .facebook:hover {
+        background: var(--facebook);
+      }
+
+      .twitter:hover {
+        background: var(--twitter);
+      }
+
+      .youtube:hover {
+        background: var(--youtube);
+      }
+
+      .instagram:hover {
+        background: var(--instagram);
+      }
+
+      .whatsapp:hover {
+        background: var(--whatsapp);
+      }
     }
-      
   }
 
-  :root{
-   --bg:#222;
+  #titulo_redes_sociales {
+    color: rgb(230, 218, 218) !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 1.1rem !important;
+   
   }
 
- $bordes:(
-  facebook:rgb(12, 26, 155),
-  twitter:rgb(12, 26, 155),
-  instagram:brown,
-  youtube:rgb(109, 10, 10),
- );
+ 
+}
 
- @each $redSocial,$colorBorde in $bordes{
-.container--#{$redSocial}{
-    margin-left:6%;
-    border-style: outset;
-    border-color: rgb(250, 244, 244);
-    &:hover{ 
-        border:solid $colorBorde;
-        border-radius:5px;
-        transition:1.5s; 
-        cursor:pointer;
-        transform: scale(1.4);
-    }      
-  } 
- }
+.texto_footer{
+  margin-top:12%;
+  h3,h4,h5,h6{
+    font-size:.7rem !important;
+    
+    
+  }
+}
 
- #foto_medios_pago{
-  margin-top:0.5%;
- }
+/* Variables*/
+:root {
+  --facebook: #3b5999;
+  --instagram: #e4405f;
+  --twitter: #55acee;
+  --youtube: #bd081c;
+  --whatsapp: #0f4e0c;
+  --mastercard:#3b5999;
+  --paypal:rgba(146, 146, 8, 0.925);
+  --visa:rgb(126, 45, 8);
+  --qr:rgb(184, 8, 8);
+  --bitcoin:rgb(22, 10, 131);
+
+
+}
+
+#medios_pago{
+  #titulo_medios_pago{
+    color: rgb(230, 218, 218) !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 1.1rem !important;
+    margin-left:14%;
+  }
+  ul {
+    &hover {
+      filter: blur(5px);
+    }
+
+    li {
+      margin: 0 5px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      list-style: none;
+      padding-top: 30%;
+
+      a {
+        display: block;
+        padding: 0 10px;
+        background: #333;
+        color: white;
+        line-height: 35px;
+        font-size: 18px;
+        box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+        transition: .2s;
+
+        &:hover {
+          transform: translatey(-3px) scale(1.4);
+          box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
+          filter: none;
+          transition:1s;
+        }
+
+      }
+
+      .mastercard:hover {
+        background: var(--mastercard);
+      }
+
+      .paypal:hover {
+        background: var(--paypal);
+      }
+
+      .visa:hover {
+        background: var(--visa);
+      }
+
+      .qr:hover {
+        background: var(--qr);
+      }
+
+      .bitcoin:hover {
+        background: var(--bitcoin);
+      }
+    }
+  }
+}

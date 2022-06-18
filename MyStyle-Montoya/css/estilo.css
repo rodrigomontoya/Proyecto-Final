@@ -287,37 +287,57 @@
   transition: 2s;
 }
 
-/* line 26, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
-#ubicacion img {
-  border: solid white 2px;
-  margin-bottom: 2% !important;
+/* line 28, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+#ubicacion ulhover {
+  filter: blur(5px);
 }
 
-/* line 29, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
-#ubicacion img:hover {
-  border-color: #d10808 !important;
-  transition: 2s;
+/* line 31, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+#ubicacion ul li {
+  width: 70px;
+  height: 60px;
+  text-align: center;
+  list-style: none;
+  margin-left: 0%;
 }
 
-/* line 36, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+/* line 38, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+#ubicacion ul li a {
+  display: block;
+  padding: 0 10px;
+  color: white;
+  line-height: 50px;
+  font-size: 60px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  transition: .2s;
+}
+
+/* line 47, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+#ubicacion ul li a:hover {
+  transform: translatey(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
+  filter: none;
+}
+
+/* line 58, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
 #ubicacion h2 {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
   font-size: 1.2rem !important;
 }
 
-/* line 39, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+/* line 61, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
 #ubicacion h2:hover {
   color: grey !important;
   transition: 2s;
 }
 
-/* line 44, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+/* line 66, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
 #ubicacion h3 {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
   font-size: 1.2rem !important;
 }
 
-/* line 47, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
+/* line 69, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainUbicacion.scss */
 #ubicacion h3:hover {
   color: grey !important;
   transition: 2s;
@@ -378,141 +398,164 @@
   color: white !important;
 }
 
-/* line 1, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-#Redes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: var(--bg);
+/* line 3, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#Redes ulhover {
+  filter: blur(5px);
 }
 
 /* line 7, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-#Redes #titulo_redes_sociales {
-  color: #e6dada;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#Redes ul li {
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
   text-align: center;
-  margin-top: auto;
-}
-
-/* line 12, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-#Redes #titulo_redes_sociales h2 {
-  font-size: 1.4rem  !important;
-  margin-bottom: 50%;
-}
-
-/* line 17, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-#Redes #titulo_redes_sociales ul {
-  position: relative;
-  display: flex;
-  gap: 50px;
-}
-
-/* line 21, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-#Redes #titulo_redes_sociales ul li {
-  position: relative;
   list-style: none;
-  width: 80px;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: 0.5s;
+  padding-top: 30%;
 }
 
-/* line 31, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-#Redes #titulo_redes_sociales ul li a {
-  position: relative;
-  text-decoration: none;
-  color: var(--clr);
+/* line 15, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#Redes ul li a {
+  display: block;
+  padding: 0 10px;
+  background: #333;
+  color: white;
+  line-height: 35px;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  transition: .2s;
 }
 
-/* line 44, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-#texto_footer {
-  text-align: center;
-  color: #e6dada;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-top: 8%;
+/* line 25, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#Redes ul li a:hover {
+  transform: translatey(-3px) scale(1.4);
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
+  filter: none;
+  transition: 1s;
 }
 
-/* line 49, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-#texto_footer h3, #texto_footer h4, #texto_footer h5, #texto_footer h6 {
-  font-size: 1rem  !important;
+/* line 34, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#Redes ul li .facebook:hover {
+  background: var(--facebook);
 }
 
-/* line 55, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+/* line 38, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#Redes ul li .twitter:hover {
+  background: var(--twitter);
+}
+
+/* line 42, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#Redes ul li .youtube:hover {
+  background: var(--youtube);
+}
+
+/* line 46, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#Redes ul li .instagram:hover {
+  background: var(--instagram);
+}
+
+/* line 50, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#Redes ul li .whatsapp:hover {
+  background: var(--whatsapp);
+}
+
+/* line 56, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#Redes #titulo_redes_sociales {
+  color: #e6dada !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-size: 1.1rem !important;
+}
+
+/* line 66, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+.texto_footer {
+  margin-top: 12%;
+}
+
+/* line 68, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+.texto_footer h3, .texto_footer h4, .texto_footer h5, .texto_footer h6 {
+  font-size: .7rem !important;
+}
+
+/* Variables*/
+/* line 76, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
 :root {
-  --bg:#222;
+  --facebook: #3b5999;
+  --instagram: #e4405f;
+  --twitter: #55acee;
+  --youtube: #bd081c;
+  --whatsapp: #0f4e0c;
+  --mastercard:#3b5999;
+  --paypal:rgba(146, 146, 8, 0.925);
+  --visa:rgb(126, 45, 8);
+  --qr:rgb(184, 8, 8);
+  --bitcoin:rgb(22, 10, 131);
 }
 
-/* line 67, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-.container--facebook {
-  margin-left: 6%;
-  border-style: outset;
-  border-color: #faf4f4;
+/* line 92, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#medios_pago #titulo_medios_pago {
+  color: #e6dada !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-size: 1.1rem !important;
+  margin-left: 14%;
 }
 
-/* line 71, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-.container--facebook:hover {
-  border: solid #0c1a9b;
-  border-radius: 5px;
-  transition: 1.5s;
-  cursor: pointer;
-  transform: scale(1.4);
+/* line 99, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#medios_pago ulhover {
+  filter: blur(5px);
 }
 
-/* line 67, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-.container--twitter {
-  margin-left: 6%;
-  border-style: outset;
-  border-color: #faf4f4;
+/* line 103, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#medios_pago ul li {
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  list-style: none;
+  padding-top: 30%;
 }
 
-/* line 71, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-.container--twitter:hover {
-  border: solid #0c1a9b;
-  border-radius: 5px;
-  transition: 1.5s;
-  cursor: pointer;
-  transform: scale(1.4);
+/* line 111, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#medios_pago ul li a {
+  display: block;
+  padding: 0 10px;
+  background: #333;
+  color: white;
+  line-height: 35px;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  transition: .2s;
 }
 
-/* line 67, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-.container--instagram {
-  margin-left: 6%;
-  border-style: outset;
-  border-color: #faf4f4;
+/* line 121, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#medios_pago ul li a:hover {
+  transform: translatey(-3px) scale(1.4);
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
+  filter: none;
+  transition: 1s;
 }
 
-/* line 71, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-.container--instagram:hover {
-  border: solid brown;
-  border-radius: 5px;
-  transition: 1.5s;
-  cursor: pointer;
-  transform: scale(1.4);
+/* line 130, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#medios_pago ul li .mastercard:hover {
+  background: var(--mastercard);
 }
 
-/* line 67, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-.container--youtube {
-  margin-left: 6%;
-  border-style: outset;
-  border-color: #faf4f4;
+/* line 134, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#medios_pago ul li .paypal:hover {
+  background: var(--paypal);
 }
 
-/* line 71, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-.container--youtube:hover {
-  border: solid #6d0a0a;
-  border-radius: 5px;
-  transition: 1.5s;
-  cursor: pointer;
-  transform: scale(1.4);
+/* line 138, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#medios_pago ul li .visa:hover {
+  background: var(--visa);
 }
 
-/* line 81, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
-#foto_medios_pago {
-  margin-top: 0.5%;
+/* line 142, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#medios_pago ul li .qr:hover {
+  background: var(--qr);
+}
+
+/* line 146, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_footer.scss */
+#medios_pago ul li .bitcoin:hover {
+  background: var(--bitcoin);
 }
 
 /*Contenedor general*/

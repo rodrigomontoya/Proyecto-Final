@@ -22,16 +22,38 @@
  
 
 
-#ubicacion  {
-    img{
-        border:solid white 2px;
-        margin-bottom: 2%!important;
-         &:hover{
-             border-color:rgb(209, 8, 8) !important;
-             transition:2s;
-             
-         }
+#ubicacion{
+
+    ul{
+        &hover {
+            filter: blur(5px);
+          }
+        li{
+            width:70px;
+            height:60px;
+            text-align: center;
+            list-style: none;
+            margin-left:0%;
+           
+            a{
+                display: block;
+                padding: 0 10px;
+                color: white; 
+                line-height: 50px;
+                font-size: 60px;
+                box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+                transition: .2s;
+               
+                &:hover {
+                    transform: translatey(-3px) scale(1.05);
+                    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
+                    filter: none;
+                  }
+            }
         }
+    }
+   
+        
        
          h2{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
@@ -48,14 +70,6 @@
                     color: grey !important;
                     transition:2s;
                   }
-                }
-    
             }
-     
-    
-
-   
-
-        
           
-         
+            }
