@@ -20,16 +20,6 @@
     }
 }
 
-#formulario{
-    border:solid 3px;
-    border-color:white !important;
-    border-radius:10px !important;
-
-    &:hover{
-        border-color:black !important;
-        transition:4s;
-    }
-}
 
 .btn-secondary {
     background-color: rgb(7, 6, 6) !important;
@@ -42,3 +32,4 @@
     background-color: black !important;
     color:white !important;
 }
+

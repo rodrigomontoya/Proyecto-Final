@@ -110,6 +110,12 @@
   padding-bottom: 0.5%;
 }
 
+/* line 42, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
+.carousel-inner img {
+  width: 100%;
+  max-height: 40rem !important;
+}
+
 /* line 1, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainSobreNosotros.scss */
 #tituloSobreNosotros {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -214,8 +220,8 @@
 /* line 47, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 img:hover, #producto2 img:hover, #producto3 img:hover, #producto4 img:hover, #producto5 img:hover, #producto6 img:hover, #producto7 img:hover, #producto8 img:hover, #producto9 img:hover {
   border: 5px solid #6b1515 !important;
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(0.9);
+  transform: scale(1.1);
   transition: transform 1.5s;
 }
 
@@ -394,30 +400,17 @@
   transition: 2s;
 }
 
-/* line 23, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainContacto.scss */
-#formulario {
-  border: solid 3px;
-  border-color: white !important;
-  border-radius: 10px !important;
-}
-
-/* line 28, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainContacto.scss */
-#formulario:hover {
-  border-color: black !important;
-  transition: 4s;
-}
-
-/* line 34, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainContacto.scss */
+/* line 24, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainContacto.scss */
 .btn-secondary {
   background-color: #070606 !important;
 }
 
-/* line 36, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainContacto.scss */
+/* line 26, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainContacto.scss */
 .btn-secondary:hover {
   background-color: #b10404 !important;
 }
 
-/* line 41, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainContacto.scss */
+/* line 31, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainContacto.scss */
 .fondoRelleno:hover {
   background-color: black !important;
   color: white !important;
