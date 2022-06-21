@@ -71,20 +71,40 @@
          
         }
     }
-    #boton{
-        background-color:black;
-        border-color:rgb(153, 147, 147);
-        border-width: 3px;
-        margin-left:29%;
-        margin-bottom:-50%;
-        width:40%;
 
-        &:focus{
-            border-color: rgb(102, 98, 98)!important;
-        }
-       
+   .boton{
+    background:#f0f1f3;
+    position:relative;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    width:50%;
+    transition:.5s;
+     height:15%;
+     padding-left: 0%;
+     padding-right: 0;
+     margin-left:22%;
+     font-weight:normal!important;
+    &:hover{
+        letter-spacing: 0.15em;
+        background:var(--clr);
+        color:var(--clr);
+        box-shadow: 0 0 35px var(--clr);
     }
-
-
+    
+     &::before{
+        content:'';
+        position:absolute;
+        inset: 2px;
+        background:#27282c;
+     }
+      span{
+        position:relative;
+        z-index:1;
+       
+      }
+       
  }
- 
+}
