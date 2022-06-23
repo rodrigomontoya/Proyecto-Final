@@ -86,57 +86,83 @@
                     mollitia
                     deleniti accusantium!</p>
             </div>
-            <div id="formulario " class="row ">
-                <form >
-                    <div class="form-row ">
-                        <section class="row">
-                      <div class="col-md-4 mb-3">
-                        <label class="text-white" for="validationDefault01">Nombres</label>
-                        <input type="text" class="form-control fondoRelleno" id="validationDefault01" placeholder="Escribe tus Nombres" value="" required>
-                      </div>
-                      <div class="col-md-4 mb-3">
-                        <label class="text-white" for="validationDefault02">Apellidos</label>
-                        <input type="text" class="form-control  fondoRelleno" id="validationDefault02" placeholder="Escribe tus Apellidos" value="" required>
-                      </div>
-                    </section>
-                    <div class="col-md-4 mb-3">
-                      <label class="text-white" for="validationDefault02">Correo Electrónico</label>
-                      <input type="text" class="form-control   fondoRelleno" id="validationDefault02" placeholder="Escribe tu Correo" value="" required>
+            <div id="formulario " class="row m-2">
+              <form class="row g-3 needs-validation " novalidate>
+  
+                <div class="col-md-4 ">
+                  <label for="validationCustom01" class="form-label text-white  ">Nombres</label>
+                  <input type="text" class="form-control fondoRelleno" id="validationCustom01"  placeholder="Escriba sus Nombres">
+                  <div class="valid-feedback">
+                    Correcto!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label text-white">Apellidos</label>
+                  <input type="text" class="form-control fondoRelleno" id="validationCustom02" placeholder="Escriba sus Apellidos">
+                  <div class="valid-feedback">
+                    Muy bien!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label text-white">Email</label>
+                  <div class="input-group has-validation">
+                    <input type="text" class="form-control fondoRelleno" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required placeholder="Escriba su Email">
+                    <div class="invalid-feedback">
+                      Por favor, ingrese su email.
                     </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom03" class="form-label text-white">Localidad</label>
+                  <input type="text" class="form-control fondoRelleno" id="validationCustom03" required placeholder="Escriba su Localidad">
+                  <div class="invalid-feedback">
+                     Por favor,ingrese su localidad.
+                  </div>
+                </div>
+                <div class="col-md-3 ">
+                  <label for="validationCustom04" class="form-label text-white ">Provincia</label>
+                  <select class="form-select fondoRelleno" id="validationCustom04" required>
+                    <option selected disabled value="">Elegir</option>
+                    <option>Mendoza</option>
+                    <option>San Juan</option>
+                    <option>San Luis</option>
+                    <option>Rioja</option>
+                    <option>Buenos Aires</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Por favor,elija una opción.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label text-white ">Código Postal</label>
+                  <input type="text" class="form-control fondoRelleno" id="validationCustom05" required placeholder="Escriba su Localidad">
+                  <div class="invalid-feedback">
+                   Por favor,ingrese código postal.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label text-white">Comentario</label>
+                  <textarea class="form-control fondoRelleno " id="exampleFormControlTextarea1" rows="4" placeholder="Escriba su Comentario"></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required  >
+                    <label class="form-check-label text-white" for="invalidCheck">
+                     Acepto términos y condiciones.
+                    </label>
+                    <div class="invalid-feedback">
+                     Debes aceptar términos y condiciones.
                     </div>
-                    <div class="form-row">
-                        <section class="row">
-                      <div class="col-md-6 mb-3">
-                        <label class="text-white fondoRelleno " for="validationDefault03">Dirección</label>
-                        <input type="text" class="form-control fondoRelleno " id="validationDefault03" placeholder="Escribe tu Dirección" required>
-                      </div>
-                      <div class="col-md-3 mb-3">
-                        <label class="text-white fondoRelleno " for="validationDefault04">Ciudad</label>
-                        <input type="text" class="form-control fondoRelleno " id="validationDefault04" placeholder="Escribe tu Ciuidad" required>
-                      </div>
-                    </section >
-                    <section class="row">
-                      <div class="col-md-3 mb-3">
-                        <label class="text-white " for="validationDefault05">Región/Estado</label>
-                        <input type="text" class="form-control fondoRelleno " id="validationDefault05" placeholder="Escribe tu Región/Estado" required>
-                      </div>
-                      <div class="col-md-3 mb-3">
-                        <label class="text-white " for="validationDefault05">Código Postal</label>
-                        <input type="text" class="form-control fondoRelleno" id="validationDefault06" placeholder="Escribe tu Código Postal" required>
-                      </div>
-                    </section>
-                    </div>
-                    <div class="form-group">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                        <label class="form-check-label text-white" for="invalidCheck2">
-                         Acepto términos y Condiciones
-                        </label>
-                      </div>
-                    </div>
-                    <button class="btn btn-secondary " type="submit">Enviar</button>
-                    <button class="btn btn-secondary" type="reset">Limpiar Formulario</button>
-                  </form>
+                  </div>
+                </div>
+                <div class="col-12 d-flex gap-3 ">
+                  <button class="btn btn-secondary " type="submit">Enviar</button>
+                  <button class="btn btn-secondary" type="reset">Limpiar</button>
+                </div>
+                <div class="col-12">
+                  
+                </div>
+              </form>
             </div>
         </section>
     </main>
