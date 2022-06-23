@@ -145,23 +145,23 @@
   border-color: black;
 }
 
-/* line 22, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainSobreNosotros.scss */
+/* line 23, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainSobreNosotros.scss */
 .cardContainer .cardTituloTexto {
   font-size: 1.5rem  !important;
 }
 
-/* line 24, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainSobreNosotros.scss */
+/* line 25, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainSobreNosotros.scss */
 .cardContainer .cardTituloTexto:hover {
   color: grey !important;
   transition: 2s;
 }
 
-/* line 30, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainSobreNosotros.scss */
+/* line 31, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainSobreNosotros.scss */
 .cardContainer .cardTexto {
   margin-bottom: 2% !important;
 }
 
-/* line 32, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainSobreNosotros.scss */
+/* line 33, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainSobreNosotros.scss */
 .cardContainer .cardTexto:hover {
   color: grey !important;
   transition: 2s;
