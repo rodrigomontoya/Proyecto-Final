@@ -5,10 +5,10 @@
    margin:auto;
    font-size: 3rem;
    font-style: oblique;
-   text-decoration: underline;
-     &:hover{
-       color:rgb(5, 5, 5);
-       transition:2s; 
+   text-decoration: underline; 
+   &:hover{
+      color:rgb(5, 5, 5);
+      transition:2s; 
    }
 }
 
@@ -29,6 +29,10 @@
  #galeria{
      row-gap:8px;
      column-gap:7%;
+     &:hover{
+      color:rgb(5, 5, 5);
+      transition:2s; 
+   }
     
  }
  
@@ -65,12 +69,29 @@
     }
     #textoCard{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-        font-size:0.8rem !important;
-        &:hover {
-          color:grey !important;
-          transition:2s;
-         
+        font-size:1.5rem !important;
+        animation-name: precioCard;
+         animation-duration: 2s;
+         animation-timing-function: ease-in-out;
+         animation-delay: 1;
+         animation-iteration-count: infinite;
+         animation-direction: normal;
+         animation-fill-mode: forwards;
+         animation-play-state: initial;
+         @keyframes precioCard {
+          0% {
+            opacity: 0;
+            transform: translateX(-100px);
+          }
+          20%,80% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+          100% {
+            opacity: 0;
+            transform: translateX(100px);}
         }
+        
     }
 
    .boton{
@@ -83,10 +104,10 @@
     font-weight: 300;
     width:50%;
     transition:.5s;
-     height:15%;
+     height:25%;
      padding-left: 0%;
      padding-right: 0;
-     margin-left:22%;
+     margin-left:23%;
      font-weight:normal!important;
     &:hover{
         letter-spacing: 0.15em;

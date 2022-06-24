@@ -206,7 +206,13 @@
   column-gap: 7%;
 }
 
-/* line 35, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 32, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+#galeria:hover {
+  color: #050505;
+  transition: 2s;
+}
+
+/* line 39, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1, #producto2, #producto3, #producto4, #producto5, #producto6, #producto7, #producto8, #producto9 {
   background-color: #B00000;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23920000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23730000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23550000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23360000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23180000' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
@@ -215,13 +221,13 @@
   border: solid black;
 }
 
-/* line 41, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 45, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1:hover, #producto2:hover, #producto3:hover, #producto4:hover, #producto5:hover, #producto6:hover, #producto7:hover, #producto8:hover, #producto9:hover {
   border-color: #810404 !important;
   transition: 2s;
 }
 
-/* line 48, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 52, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 img:hover, #producto2 img:hover, #producto3 img:hover, #producto4 img:hover, #producto5 img:hover, #producto6 img:hover, #producto7 img:hover, #producto8 img:hover, #producto9 img:hover {
   border: 5px solid #6b1515 !important;
   -webkit-transform: scale(0.9);
@@ -229,32 +235,49 @@
   transition: transform 1.5s;
 }
 
-/* line 56, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 60, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 #tituloCard, #producto2 #tituloCard, #producto3 #tituloCard, #producto4 #tituloCard, #producto5 #tituloCard, #producto6 #tituloCard, #producto7 #tituloCard, #producto8 #tituloCard, #producto9 #tituloCard {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
   font-size: 1.3rem !important;
   font-weight: normal !important;
 }
 
-/* line 60, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 64, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 #tituloCard:hover, #producto2 #tituloCard:hover, #producto3 #tituloCard:hover, #producto4 #tituloCard:hover, #producto5 #tituloCard:hover, #producto6 #tituloCard:hover, #producto7 #tituloCard:hover, #producto8 #tituloCard:hover, #producto9 #tituloCard:hover {
   color: grey !important;
   transition: 2s;
 }
 
-/* line 66, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 70, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 #textoCard, #producto2 #textoCard, #producto3 #textoCard, #producto4 #textoCard, #producto5 #textoCard, #producto6 #textoCard, #producto7 #textoCard, #producto8 #textoCard, #producto9 #textoCard {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-  font-size: 0.8rem !important;
+  font-size: 1.5rem !important;
+  animation-name: precioCard;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: initial;
 }
 
-/* line 69, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
-#producto1 #textoCard:hover, #producto2 #textoCard:hover, #producto3 #textoCard:hover, #producto4 #textoCard:hover, #producto5 #textoCard:hover, #producto6 #textoCard:hover, #producto7 #textoCard:hover, #producto8 #textoCard:hover, #producto9 #textoCard:hover {
-  color: grey !important;
-  transition: 2s;
+@keyframes precioCard {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  20%, 80% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
 }
 
-/* line 76, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 97, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 .boton, #producto2 .boton, #producto3 .boton, #producto4 .boton, #producto5 .boton, #producto6 .boton, #producto7 .boton, #producto8 .boton, #producto9 .boton {
   background: #f0f1f3;
   position: relative;
@@ -265,14 +288,14 @@
   font-weight: 300;
   width: 50%;
   transition: .5s;
-  height: 15%;
+  height: 25%;
   padding-left: 0%;
   padding-right: 0;
-  margin-left: 22%;
+  margin-left: 23%;
   font-weight: normal !important;
 }
 
-/* line 91, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 112, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 .boton:hover, #producto2 .boton:hover, #producto3 .boton:hover, #producto4 .boton:hover, #producto5 .boton:hover, #producto6 .boton:hover, #producto7 .boton:hover, #producto8 .boton:hover, #producto9 .boton:hover {
   letter-spacing: 0.15em;
   background: var(--clr);
@@ -280,7 +303,7 @@
   box-shadow: 0 0 35px var(--clr);
 }
 
-/* line 98, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 119, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 .boton::before, #producto2 .boton::before, #producto3 .boton::before, #producto4 .boton::before, #producto5 .boton::before, #producto6 .boton::before, #producto7 .boton::before, #producto8 .boton::before, #producto9 .boton::before {
   content: '';
   position: absolute;
@@ -288,7 +311,7 @@
   background: #27282c;
 }
 
-/* line 104, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
+/* line 125, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainProductos.scss */
 #producto1 .boton span, #producto2 .boton span, #producto3 .boton span, #producto4 .boton span, #producto5 .boton span, #producto6 .boton span, #producto7 .boton span, #producto8 .boton span, #producto9 .boton span {
   position: relative;
   z-index: 1;
