@@ -73,15 +73,16 @@
 /* line 2, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
 #textoCarrousel {
   font-size: 1rem !important;
+  margin-top: 5%;
 }
 
-/* line 4, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
+/* line 5, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
 #textoCarrousel:hover {
   color: grey !important;
   transition: 2s;
 }
 
-/* line 12, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
+/* line 13, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
 .carousel-inner img {
   height: 100vh;
   width: 90vw;
@@ -90,7 +91,7 @@
   margin-top: 2%;
 }
 
-/* line 23, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
+/* line 24, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
 #tituloInicio {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
   font-size: 3rem !important;
@@ -100,19 +101,19 @@
   text-decoration: underline;
 }
 
-/* line 30, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
+/* line 31, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
 #tituloInicio:hover {
   color: #050505;
   transition: 2s;
 }
 
-/* line 36, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
+/* line 37, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
 #videoIntroduccion {
   margin-top: 1%;
   padding-bottom: 0.5%;
 }
 
-/* line 43, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
+/* line 44, ../../../Users/rodri/Desktop/Curso de Desarrollo de Web/Proyecto Final/EntregaProyectoFinal/MyStyle-Montoya/scss/layout/_mainIndex.scss */
 .carousel-inner img {
   width: 100%;
   max-height: 40rem !important;
